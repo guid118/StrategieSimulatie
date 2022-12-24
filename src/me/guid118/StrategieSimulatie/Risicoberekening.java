@@ -59,7 +59,7 @@ public class Risicoberekening {
             risico = "gemiddeld";
         } else if (hriskbandronde <= 0.95) {
             risico = "hoog";
-        } else if (hriskbandronde <= 0.9999){
+        } else if (hriskbandronde < 1){
             risico = "zeer hoog";
         } else {
             risico = "Klapband!";
